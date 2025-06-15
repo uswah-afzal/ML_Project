@@ -1,0 +1,42 @@
+Text-Based Emotion Recognition and Emoji Generation Using Machine Learning
+Team Members
+Zainab Junaid – BSDSF22M005
+Uswah Fatima – BSDSF22M015
+Problem Statement
+Humans are naturally capable of understanding emotions through facial expressions, tone, and gestures. In contrast, textual communication lacks these non-verbal cues, making it difficult to interpret the emotional state of the writer. Just like facial expression recognition models attempt to detect human emotions from faces, we aim to replicate this emotional understanding using text as the input medium.
+The core problem is:
+“How can we detect human emotions from text the same way we detect emotions from facial expressions?”
+With the rapid growth of online communication (e.g., WhatsApp, Twitter, chatbots), it has become crucial to make textual communication more emotionally intelligent. This project will address this challenge by using a machine learning model to detect emotions from text and then represent those emotions with relevant emojis, enhancing user experience and digital empathy.
+Objectives
+•	To develop a machine learning model that accurately detects emotions from textual input.
+•	To create a mapping of emotions to corresponding emojis (e.g., anger → 😠).
+•	To design a user-friendly interface using Gradio for real-time emoji generation based on detected emotion.
+•	To compare different models for performance (accuracy, precision, recall).
+•	To replicate the idea of facial emotion recognition but in the textual domain.
+Proposed Methodology
+Data Preprocessing:
+•	Lowercasing, removing punctuation, tokenization.
+•	Convert text into vectors using TF-IDF or embeddings (e.g., Word2Vec or BERT, if feasible).
+Model Development:
+•	Logistic Regression
+•	Naive Bayes
+Emotion to Emoji Mapping: Create a predefined emoji for each emotion label (e.g., joy = 😊, sadness = 😢).
+Interface: Build a Gradio interface that lets users input text and see the predicted emotion and emoji instantly.
+Dataset Description
+Source: Kaggle – Emotion Detection from Text Dataset
+Details:
+•	Labeled textual data for supervised learning.
+•	Emotion labels include: joy, sadness, anger, fear, love, surprise
+•	Clean and balanced dataset suitable for classification tasks.
+Expected Outcomes
+•	A working machine learning model with high accuracy in detecting emotions from user text.
+•	A functional and interactive web app that:
+o	Accepts user input.
+o	Displays the detected emotion.
+o	Shows the related emoji visually.
+•	Better understanding of how textual emotion detection can enhance communication interfaces.
+•	Potential application in chatbots, digital assistants, mental health tools, and social media.
+Timeline
+Day1: Dataset analysis, preprocessing, and Model training
+Day2: Evaluation, emoji mapping, and integration
+Day3: UI development and testing
